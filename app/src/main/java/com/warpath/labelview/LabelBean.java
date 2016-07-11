@@ -2,10 +2,6 @@ package com.warpath.labelview;
 
 import java.io.Serializable;
 
-/**
- * Author:tc
- * Date:2015/9/17.
- */
 public class LabelBean implements Serializable {
     public static final int DIRECTION_LEFT = 1;
     public static final int DIRECTION_RIGHT = 2;

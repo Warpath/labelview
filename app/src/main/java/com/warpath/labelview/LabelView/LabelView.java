@@ -13,10 +13,6 @@ import com.warpath.labelview.LabelBean;
 import com.warpath.labelview.R;
 
 
-/**
- * Author:tc
- * Date:2015/9/19.
- */
 public class LabelView extends LinearLayout {
     private Context mContext;
     private ImageView mIvGif;

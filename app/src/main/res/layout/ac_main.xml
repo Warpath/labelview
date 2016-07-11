@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.warpath.labelview.LabelView.LabelView
         android:id="@+id/labelView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></com.warpath.labelview.LabelView.LabelView>
-</LinearLayout>
+    <com.warpath.labelview.LabelView.LabelView
+        android:id="@+id/labelview_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></com.warpath.labelview.LabelView.LabelView>
+</RelativeLayout>
